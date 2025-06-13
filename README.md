@@ -5,7 +5,7 @@
 A Python tool that intelligently compresses images by reducing their color palette while maintaining visual quality.
 
 
-![Compression Example](images/example_comparison.png)
+![Compression Example](images/output/compressed.png)
 
 </div>
 
