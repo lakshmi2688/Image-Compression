@@ -62,8 +62,7 @@ compressor.compress_image(
 # Show comparison
 compressor.show_comparison(
     'images/input/photo.jpg',
-    'images/output/compressed.jpg',
-    'images/output/comparison.jpg'
+    'images/output/compressed.jpg'
 )
 ```
 
