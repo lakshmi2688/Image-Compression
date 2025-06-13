@@ -25,7 +25,6 @@ def main():
         # Set up paths
         input_path = os.path.join(project_root, 'images', 'input', 'example.png')
         output_path = os.path.join(project_root, 'images', 'output', 'compressed.png')
-        image_save_path = os.path.join(project_root, 'images', 'output', 'comparison.png')
         
         print(f"Project root: {project_root}")
         print(f"Current working directory: {os.getcwd()}")
@@ -38,7 +37,7 @@ def main():
         # Initialize compressor and process image
         compressor = ImageCompressor(n_colors=16)
         compressor.compress_image(input_path, output_path)
-        compressor.show_comparison(input_path, output_path, image_save_path)
+        compressor.show_comparison(input_path, output_path)
         
     except Exception as e:
         print(f"Error: {e}")
