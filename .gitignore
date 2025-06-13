@@ -11,4 +11,5 @@ venv/
 .idea/
 
 # Output files
-images/output/
+!images/output/
+!images/output/*.png
