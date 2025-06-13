@@ -149,9 +149,6 @@ compressor.show_comparison('input.jpg', 'output.jpg')
 | Colors | Millions | 16 |
 | Quality | 100% | ~95% |
 
-### Visual Examples
-![Compression Results](images/results.png)
-
 ## 📝 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
