@@ -4,6 +4,7 @@
 
 A Python tool that intelligently compresses images by reducing their color palette while maintaining visual quality.
 
+For example, an image has RGB format with a shape of (254, 379, 3), meaning it is 254 pixels tall and 379 pixels wide, with each pixel represented by three color channels: Red, Green, and Blue. Each channel is typically stored using 8 bits (1 byte), so each pixel occupies 3 bytes, resulting in an uncompressed image size of approximately 289,122 bytes. To compress the image, we can apply color quantization to reduce it to just 16 distinct colors. Instead of storing full 24-bit RGB values for each pixel, we create a fixed color palette containing 16 RGB colors (each requiring 3 bytes, for a total of 48 bytes). Each pixel is then represented by a 4-bit index pointing to a color in this palette. This reduces the storage per pixel to just 0.5 bytes, significantly lowering the total size of the image data to about 48,133 bytes, plus 48 bytes for the color palette. Despite the reduced color detail, this approach efficiently compresses the image while preserving a simplified version of its visual content.
 
 ![Compression Example](images/output/comparison.png) (Credits: Coursera)
 
@@ -138,14 +139,6 @@ compressor.show_comparison('input.jpg', 'output.jpg')
    # Fix permissions
    chmod 755 images/output
    ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
 
 ## 📊 Results
 
