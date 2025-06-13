@@ -25,7 +25,7 @@ A Python tool that intelligently compresses images by reducing their color palet
 ```bash
 # 1. Clone the repository
 git clone https://github.com/lakshmi2688/Image-Compression.git
-cd image-compression
+cd Image-Compression
 
 # 2. Install dependencies
 pip install numpy Pillow matplotlib
