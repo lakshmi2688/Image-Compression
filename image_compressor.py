@@ -91,7 +91,7 @@ class ImageCompressor:
         ax2.set_title(f'Compressed ({self.n_colors} colors)')
         ax2.axis('off')
 
-        plt.savefig(comparison_path, bbox_inches='tight', dpi=300)
+        #plt.savefig(comparison_path, bbox_inches='tight', dpi=300)
         plt.show()
         
     def show_color_palette(self, X_img):
