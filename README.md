@@ -4,7 +4,6 @@
 
 A Python tool that intelligently compresses images by reducing their color palette while maintaining visual quality.
 
-[Quick Start](#quick-start) • [Examples](#examples) • [Documentation](#documentation) • [Contributing](#contributing)
 
 ![Compression Example](images/example_comparison.png)
 
@@ -25,7 +24,7 @@ A Python tool that intelligently compresses images by reducing their color palet
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/image-compression.git
+git clone https://github.com/lakshmi2688/Image-Compression.git
 cd image-compression
 
 # 2. Install dependencies
