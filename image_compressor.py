@@ -75,7 +75,7 @@ class ImageCompressor:
             
         return centroids, idx
     
-    def show_comparison(self, original_path, compressed_path):
+    def show_comparison(self, original_path, compressed_path, comparison_path):
         """Display original and compressed images side by side"""
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 16))
         
@@ -91,7 +91,6 @@ class ImageCompressor:
         ax2.set_title(f'Compressed ({self.n_colors} colors)')
         ax2.axis('off')
 
-        comparison_path = os.path.join(compressed_path, 'comparison.png')
         plt.savefig(comparison_path, bbox_inches='tight', dpi=300)
         plt.show()
         
