@@ -1,0 +1,14 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.env
+venv/
+.idea/
+
+# Output files
+images/output/
