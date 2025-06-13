@@ -8,7 +8,7 @@ def main():
     compressor = ImageCompressor(n_colors=16)
     
     # Compress image
-    input_path = '../images/input/example.jpg'
+    input_path = '../images/input/example.png'
     output_path = '../images/output/compressed.jpg'
     
     # Perform compression
